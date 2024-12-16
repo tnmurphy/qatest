@@ -1,0 +1,48 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.swp
+.DS_Store
+.coverage
+
+# Ignore virtual environments
+hl_diagrams/venv_diagrams
+venv/
+env/
+ENV/
+*.venv/
+__env/
+.venv/
+docker_venv/
+pip-log.txt
+
+# Exclude IDE-specific files and directories
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+*.idea/workspace.xml
+*.idea/tasks.xml
+
+# Exclude terraform
+*terraform*
+src/docker/terraform
+
+# Exclude lambda layers
+src/lambda_layers/python/*
+# Excude dist
+/dist/
+.python-version
+
+# Exclude ugrep regexp index files
+._UG#_Store
+
+# Exclude .env file
+.env*
