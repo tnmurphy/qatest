@@ -8,7 +8,7 @@ Please read up about the `behave` testing framework for Python:
 
 This repository contains some code to test and a basic behave test environment which you should add to and modify.  The aim is to show that you can work with python and git and that you can understand Behavior Driven Development testing (BDD).
 
-## Setting up python environment
+## Setting up a python environment
 These instructions reference a Linux environment. You will need python version 3.10 at least.  If you are using Windows the commands will be similar in most cases but not all.
 
 1. Open a terminal and clone the repository
