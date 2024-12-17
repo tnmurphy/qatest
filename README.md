@@ -87,22 +87,22 @@ This means you will need to add at least 1 feature file (for the mode function) 
 You can zip your directory and email it back to us or you can make a pull request in github.
 
 ## More information about Median and Mode
-### Median Definition
-The median of a finite list of numbers is the "middle" number, when those numbers are listed in order from smallest to greatest.
+### Definition of the Median
+The median of a list of numbers is the "middle" number, when those numbers are listed in order.
 
-If the data set has an odd number of observations, the middle one is selected (after arranging in ascending order). For example, the following list of seven numbers,
+If the data set has an odd number of observations, the middle one is selected (after being sorted into order). For example, the following list of seven numbers,
 
     1, 3, 3, 6, 7, 8, 9
 
 has the median of 6, which is the fourth value.
 
-If the data set has an even number of observations, there is no distinct middle value and the median is usually defined to be the arithmetic mean of the two middle values.[1][2] For example, this data set of 8 numbers
+If the data set has an even number of observations, there is no distinct middle value and the median is defined to be the average of the two middle values. For example the median of:
 
     1, 2, 3, 4, 5, 6, 8, 9
 
-...has a median value of 4.5, that is ( 4 + 5 ) / 2 {\displaystyle (4+5)/2}. 
+... is 4.5, that is ```( 4 + 5 ) / 2```
 
-### Mode Definition
+### Definition of the Mode
 For a set of numbers, 'mode' refers to the most frequently occurring number. If there is more than one number with the same frequency then the mode is all of those numbers. If all the numbers have the same frequency then there is no mode.
 
 Let's take the following data sets to calculate the mode.
@@ -117,5 +117,5 @@ In Example 2, 5,6 are both equally frequent so the mode is [5,6]
 
     Example3: 5, 9, 1, 3, 7, 6, 8
 
-In Example 3, every value occurs once so there is no repetition. Therefore, the data set doesn't have a mode and the mode is []
+In Example 3, every value occurs once so there is no repetition. Therefore, the data set doesn't have a mode and the mode is [ ]
 
